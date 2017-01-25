@@ -1,0 +1,73 @@
+/*body,html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.flex-container{
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	border: 1px solid red;
+}
+
+.keys{
+	
+	width: 150px;
+	height: 150px;
+	border : 1px solid green;
+	text-align: center;
+	line-height: 150px; /*Same height div*/
+	/*margin: 0 auto;
+	padding: 0;
+
+}*/
+
+body {
+	margin : 0;
+	padding : 0;
+	background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+}
+
+.flex-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);,
+
+}
+
+.keys {
+	border : 1px solid red;
+	padding : 0 10px;
+	margin: 0 8px;
+	width: 100px;
+	text-align: center;
+	transition: all .07s;
+
+}
+
+.keys:first-child {
+	margin-left: 0;
+}
+.keys:last-child {
+	margin-right: 0;
+}
+
+.playing{
+	transform: scale(1,1);
+	border-color: blue;
+	box-shadow: 0 0 10px green;
+
+}
